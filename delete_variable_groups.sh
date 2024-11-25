@@ -4,8 +4,8 @@
 INPUT_FILE="repo_groups.json"
 
 # Organisation and project details
-ORG_URL="https://dev.azure.com/quadcorpslimited"
-PROJECT="CSM"
+ORG_URL="https://dev.azure.com/<yourorgname>"
+PROJECT="<your_project_name>"
 
 # Read the JSON file and process each entry
 jq -c '.[]' "$INPUT_FILE" | while read -r entry; do
