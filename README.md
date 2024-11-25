@@ -7,7 +7,9 @@ the repo name and ID to `repo_groups.json`.
 
 ## Delete variable groups
 Running the script `delete_variable_groups.sh` take the output from `repo_groups.json` and deletes each group in turn.
-_Be sure to edit `repo_groups.json` so that you only delete the groups you intend to. 
+
+> [!CAUTION]
+> _Be sure to edit `repo_groups.json` so that you only delete the groups you intend to._
 
 
 
