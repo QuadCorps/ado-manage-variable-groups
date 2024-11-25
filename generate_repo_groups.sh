@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define variables
-ORG_URL="https://dev.azure.com/quadcorpslimited"
-PROJECT="CSM"
+ORG_URL="https://dev.azure.com/<yourorgname>"
+PROJECT="<your_project_name>"
 OUTPUT_FILE="repo_groups.json"
 
 # Run Azure CLI command to get variable groups
